@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="resources/css/medias.css" type="text/css" rel="stylesheet">
+        <link href="resources/pics/DiGeo Logo.jpg" type="image/x-icon"  rel="shortcut icon"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>DiGeo Jobs</title>
+    </head>
+
+
+    <body class = "main">
+        <div class="topnav" id="myTopnav">
+            <a href ="DiGeo_Index.html" class = "Logo"><img src = "resources/pics/DiGeo Logo.jpg"></a>
+                <a href="./DiGeo_Index.html">Home</a> 
+                <a href="./about.html">About</a>
+                <a href="./medias.html" class="active">Social Medias</a> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>    
+        </div>
+
+
+        <script>
+            function myFunction() 
+            {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <div class="aboutSection">
+            <h1>FOLLOW US:</h1>
+            <p>Feel free to follow us 
+                <span class="username">@digeojobs</span> 
+                on <span><a href="https://twitter.com/digeojobs" target="_blank">Twitter</a> or 
+                <a href="https://www.instagram.com/digeojobs/" target="_blank">Instagram</a></span>, 
+                <span class="username">DiGeo Jobs</span> on 
+                <span><a href="https://www.facebook.com/DiGeo-Jobs-112743773742131/" target="_blank">Facebook</a></span>, 
+                or <span class="platform">email</span> us at 
+                <span class="username">digeojobs@gmail.com!</span></p>
+        </div>
+
+
+        <div class="mediaLogos">
+            <div class="medLogo">
+                <a href ="https://twitter.com/digeojobs"><img src = "resources/pics/twitterLogo.png"></a>
+            </div>
+            <div class="medLogo">
+                <a href ="https://www.instagram.com/digeojobs/"><img src = "resources/pics/instagramLogo.jpg"></a>
+            </div>
+            <div class="medLogo">
+                <a href ="https://www.facebook.com/DiGeo-Jobs-112743773742131/"><img src = "resources/pics/facebookLogo.png"></a>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>
