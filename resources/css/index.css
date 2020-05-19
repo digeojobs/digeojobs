@@ -245,3 +245,9 @@
 .medLogo img {
     border-radius: 20px;
 }
+
+.mediaLogos h1 {
+  margin: 0px 5px 10px 5px;
+  color: rgba(255, 255, 255, 0.795);
+  font-family: 'Jost', sans-serif;
+}
